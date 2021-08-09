@@ -31,7 +31,7 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '12.1'
 
-  s.source_files  = 'DynamicHeightCollectionView/Source/**/*'
+  s.source_files  = 'Source/**/*.swift'
   s.swift_version = '5.0'
   
   # s.resource_bundles = {
