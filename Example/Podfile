@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'DynamicHeightCollectionView_Example' do
+  pod 'DynamicHeightCollectionView', :path => '../'
+
+  target 'DynamicHeightCollectionView_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
