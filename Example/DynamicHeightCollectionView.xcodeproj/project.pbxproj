@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		34AB887E26C13A7F00C4CA19 /* ProductsCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34AB887C26C13A7E00C4CA19 /* ProductsCell.xib */; };
+		34AB887F26C13A7F00C4CA19 /* ProductsCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB887D26C13A7E00C4CA19 /* ProductsCell.swift */; };
+		34AB888226C13A8D00C4CA19 /* HeroCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 34AB888026C13A8D00C4CA19 /* HeroCell.xib */; };
+		34AB888326C13A8D00C4CA19 /* HeroCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 34AB888126C13A8D00C4CA19 /* HeroCell.swift */; };
 		34CD97D0D5849419A2F74C84 /* Pods_DynamicHeightCollectionView_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3F962CF7F05CAA16828E44F4 /* Pods_DynamicHeightCollectionView_Tests.framework */; };
 		4D5295DED2BC9B418B38F50D /* Pods_DynamicHeightCollectionView_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2CF66DBC3915480B22451423 /* Pods_DynamicHeightCollectionView_Example.framework */; };
 		607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 607FACD51AFB9204008FA782 /* AppDelegate.swift */; };
@@ -30,6 +34,10 @@
 /* Begin PBXFileReference section */
 		0ACBFD9A695585E70EA1E599 /* Pods-DynamicHeightCollectionView_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightCollectionView_Tests.release.xcconfig"; path = "Target Support Files/Pods-DynamicHeightCollectionView_Tests/Pods-DynamicHeightCollectionView_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		2CF66DBC3915480B22451423 /* Pods_DynamicHeightCollectionView_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicHeightCollectionView_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		34AB887C26C13A7E00C4CA19 /* ProductsCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ProductsCell.xib; sourceTree = "<group>"; };
+		34AB887D26C13A7E00C4CA19 /* ProductsCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ProductsCell.swift; sourceTree = "<group>"; };
+		34AB888026C13A8D00C4CA19 /* HeroCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HeroCell.xib; sourceTree = "<group>"; };
+		34AB888126C13A8D00C4CA19 /* HeroCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HeroCell.swift; sourceTree = "<group>"; };
 		3AE1ED06FC017D3A3ACD34F6 /* Pods-DynamicHeightCollectionView_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightCollectionView_Tests.debug.xcconfig"; path = "Target Support Files/Pods-DynamicHeightCollectionView_Tests/Pods-DynamicHeightCollectionView_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3F962CF7F05CAA16828E44F4 /* Pods_DynamicHeightCollectionView_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DynamicHeightCollectionView_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		40322F68D5A8C246E169AB6B /* Pods-DynamicHeightCollectionView_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightCollectionView_Example.release.xcconfig"; path = "Target Support Files/Pods-DynamicHeightCollectionView_Example/Pods-DynamicHeightCollectionView_Example.release.xcconfig"; sourceTree = "<group>"; };
@@ -43,10 +51,10 @@
 		607FACE51AFB9204008FA782 /* DynamicHeightCollectionView_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DynamicHeightCollectionView_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
-		6A7C6FC361E27499CE941FC5 /* DynamicHeightCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = DynamicHeightCollectionView.podspec; path = ../DynamicHeightCollectionView.podspec; sourceTree = "<group>"; };
-		801E4994D8A5BB60CC1CB6EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		6A7C6FC361E27499CE941FC5 /* DynamicHeightCollectionView.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = DynamicHeightCollectionView.podspec; path = ../DynamicHeightCollectionView.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		801E4994D8A5BB60CC1CB6EA /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		89680AF10C5C39442BE3A893 /* Pods-DynamicHeightCollectionView_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DynamicHeightCollectionView_Example.debug.xcconfig"; path = "Target Support Files/Pods-DynamicHeightCollectionView_Example/Pods-DynamicHeightCollectionView_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		BC5D5295C737C9ED1C9B893F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		BC5D5295C737C9ED1C9B893F /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,6 +77,41 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		34AB887826C13A5A00C4CA19 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				34AB887926C13A6200C4CA19 /* CollectionViewCells */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		34AB887926C13A6200C4CA19 /* CollectionViewCells */ = {
+			isa = PBXGroup;
+			children = (
+				34AB887A26C13A6C00C4CA19 /* Hero */,
+				34AB887B26C13A7000C4CA19 /* Products */,
+			);
+			name = CollectionViewCells;
+			sourceTree = "<group>";
+		};
+		34AB887A26C13A6C00C4CA19 /* Hero */ = {
+			isa = PBXGroup;
+			children = (
+				34AB888126C13A8D00C4CA19 /* HeroCell.swift */,
+				34AB888026C13A8D00C4CA19 /* HeroCell.xib */,
+			);
+			name = Hero;
+			sourceTree = "<group>";
+		};
+		34AB887B26C13A7000C4CA19 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				34AB887D26C13A7E00C4CA19 /* ProductsCell.swift */,
+				34AB887C26C13A7E00C4CA19 /* ProductsCell.xib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 		607FACC71AFB9204008FA782 = {
 			isa = PBXGroup;
 			children = (
@@ -93,6 +136,7 @@
 		607FACD21AFB9204008FA782 /* Example for DynamicHeightCollectionView */ = {
 			isa = PBXGroup;
 			children = (
+				34AB887826C13A5A00C4CA19 /* Views */,
 				607FACD51AFB9204008FA782 /* AppDelegate.swift */,
 				607FACD71AFB9204008FA782 /* ViewController.swift */,
 				607FACD91AFB9204008FA782 /* Main.storyboard */,
@@ -156,7 +200,6 @@
 				3AE1ED06FC017D3A3ACD34F6 /* Pods-DynamicHeightCollectionView_Tests.debug.xcconfig */,
 				0ACBFD9A695585E70EA1E599 /* Pods-DynamicHeightCollectionView_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,23 +251,23 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 0830;
-				LastUpgradeCheck = 0830;
+				LastUpgradeCheck = 1250;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
 					607FACCF1AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1250;
 					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
+						LastSwiftMigration = 1250;
 						TestTargetID = 607FACCF1AFB9204008FA782;
 					};
 				};
 			};
 			buildConfigurationList = 607FACCB1AFB9204008FA782 /* Build configuration list for PBXProject "DynamicHeightCollectionView" */;
 			compatibilityVersion = "Xcode 3.2";
-			developmentRegion = English;
+			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
@@ -247,8 +290,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				607FACDB1AFB9204008FA782 /* Main.storyboard in Resources */,
+				34AB887E26C13A7F00C4CA19 /* ProductsCell.xib in Resources */,
 				607FACE01AFB9204008FA782 /* LaunchScreen.xib in Resources */,
 				607FACDD1AFB9204008FA782 /* Images.xcassets in Resources */,
+				34AB888226C13A8D00C4CA19 /* HeroCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -333,6 +378,8 @@
 			files = (
 				607FACD81AFB9204008FA782 /* ViewController.swift in Sources */,
 				607FACD61AFB9204008FA782 /* AppDelegate.swift in Sources */,
+				34AB887F26C13A7F00C4CA19 /* ProductsCell.swift in Sources */,
+				34AB888326C13A8D00C4CA19 /* HeroCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -386,14 +433,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -419,7 +469,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -439,14 +489,17 @@
 				CLANG_WARN_BOOL_CONVERSION = YES;
 				CLANG_WARN_COMMA = YES;
 				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
 				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
 				CLANG_WARN_EMPTY_BODY = YES;
 				CLANG_WARN_ENUM_CONVERSION = YES;
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -465,7 +518,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
@@ -479,12 +532,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DynamicHeightCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -494,12 +548,13 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = DynamicHeightCollectionView/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				MODULE_NAME = ExampleApp;
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.demo.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
@@ -520,7 +575,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightCollectionView_Example.app/DynamicHeightCollectionView_Example";
 			};
 			name = Debug;
@@ -538,7 +593,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.$(PRODUCT_NAME:rfc1034identifier)";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_SWIFT3_OBJC_INFERENCE = Default;
-				SWIFT_VERSION = 4.0;
+				SWIFT_VERSION = 5.0;
 				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DynamicHeightCollectionView_Example.app/DynamicHeightCollectionView_Example";
 			};
 			name = Release;

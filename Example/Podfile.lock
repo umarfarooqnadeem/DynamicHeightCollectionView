@@ -1,0 +1,16 @@
+PODS:
+  - DynamicHeightCollectionView (0.1.0)
+
+DEPENDENCIES:
+  - DynamicHeightCollectionView (from `../`)
+
+EXTERNAL SOURCES:
+  DynamicHeightCollectionView:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  DynamicHeightCollectionView: 688008c6dff65a14b12f4d8532da3b9ab33f9eaa
+
+PODFILE CHECKSUM: 962a924ddb0d0dbd303baa50221157863d8d36e7
+
+COCOAPODS: 1.10.1
